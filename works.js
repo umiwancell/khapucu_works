@@ -29,12 +29,12 @@
 
 var WORKS = [
   {
-    title: "Shanghai",
+    title: "Shanghai_1",
     type: "film",
     date: "2025-03-20",
     camera: "Pentaxp30n",
-    note: "標高の高い村で撮ったフィルム。朝の光がいちばんよかった。",
-    images: ["shanghai-01.jpg", "shanghai-02.jpg", "shanghai-03.jpg"],
+    note: "現代ビルと伝統建物が重なる",
+    images: ["shanghai1.jpg", "shanghai2.jpg", "shanghai3.jpg"],
   },
   {
     title: "Farm Life",
