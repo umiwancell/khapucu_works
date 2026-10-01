@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+  index.html — サイトの構成(どこに何を置くか)
+  ファイルの役割:
+    index.html … 構成(このファイル)。自己紹介・メールアドレスもここで書き換える
+    style.css  … 見た目
+    works.js   … 作品のデータ(★写真を足すときは、ここだけ)
+    script.js  … 画面を動かす仕組み
+    img/       … 写真を入れるフォルダ
+-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>คำปู้จู้ ｶｰﾌﾟﾁｭｰ — Works & Archive</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Kurenaido&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== ヘッダー(ロゴとメニュー) ===== -->
+    <header>
+      <a class="logo px" href="#" data-v="works">คำปู้จู้ ｶｰﾌﾟﾁｭｰ/</a>
+      <nav class="px">
+        <button data-v="works" class="cur">works</button>
+        <button data-v="archive">archive</button>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <!-- ===== タイトルと絞り込みボタン ===== -->
+    <div class="top">
+      <h1 class="px" id="ttl">
+        Works
+        <small>作品</small>
+      </h1>
+      <p class="st px" id="st"></p>
+    </div>
+    <div class="chips px" id="chips"></div>
+    <!-- ===== 作品の一覧(Works と Archive はここに表示される) ===== -->
+    <div class="wrap">
+      <div id="works" class="grid"></div>
+      <div id="archive" hidden></div>
+    </div>
+
+    <!-- ===== About / Contact(自己紹介とメールアドレスはここを書き換える) ===== -->
+    <section class="blk" id="about">
+      <h3 class="px">About</h3>
+      <p>
+        旅の思い出など、残しておきたいものを色々な形で残しています。名前の、คำปู้จู้ ｶｰﾌﾟﾁｭｰ、というのは、タイ北部の言葉でmarigoldの意味です。自身はそんなにmarigoldに深い思いがあるわけではないですが、私のタイ北部でのnicknameとなっています、ので。そんな感じです。
+      </p>
+    </section>
+    <section class="blk" id="contact">
+      <h3 class="px">Contact</h3>
+      <p>@xayuyunne / X</p>
+    </section>
+    <footer class="px">
+      <span>&copy; คำปู้จู้ ｶｰﾌﾟﾁｭｰ</span>
+      <a href="#" data-v="works">^ top</a>
+    </footer>
+
+    <!-- ===== 作品の詳細画面(普段は隠れています) ===== -->
+    <div id="det" role="dialog" aria-label="作品の詳細">
+      <div class="bar px"><button id="dx">[ close x ]</button></div>
+      <div class="in" id="din"></div>
+    </div>
+
+    <!-- ===== プログラム =====
+         works.js  : 作品のデータ(写真を足すときは、ここだけ書き換える)
+         script.js : 画面を動かす仕組み(普段は触らなくてOK) -->
+    <script src="works.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
