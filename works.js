@@ -34,7 +34,7 @@ var WORKS = [
     date: "2025-03-20",
     camera: "Pentaxp30n",
     note: "現代ビルと伝統建物が重なる",
-    images: ["shanghai1.jpg", "shanghai2.jpg", "shanghai3.jpg"],
+    images: ["shanghai1.JPG", "shanghai2.JPG", "shanghai3.JPG"],
   },
   {
     title: "Farm Life",
