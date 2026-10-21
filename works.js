@@ -34,7 +34,7 @@ var WORKS = [
     date: "2025-03-20",
     camera: "Pentaxp30n",
     note: "現代ビルと伝統建物が重なる",
-    images: ["img/shanghai/IMG_3014.JPG", "img/shanghai/IMG_3040.JPG", "img/shanghai/IMG_3044.JPG"],
+    images: ["shanghai/IMG_3014.JPG", "shanghai/IMG_3040.JPG", "shanghai/IMG_3044.JPG"],
   },
   {
     title: "Shanghai",
