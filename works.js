@@ -42,7 +42,7 @@ var WORKS = [
     date: "2025-03-20",
     camera: "Pentaxp30n",
     note: "上海の現代ビル",
-    images: ["shanghai/IMG_3042.JPG", "shanghai/IMG_3026.JPG", "shanghai/IMG_3028.JPG","shanghai/IMG_3030.JPG"],
+    images: ["shanghai/IMG_3042.jpg", "shanghai/IMG_3026.jpg", "shanghai/IMG_3028.JPG","shanghai/IMG_3030.JPG"],
   },
   {
     title: "Shanghai",
@@ -50,7 +50,7 @@ var WORKS = [
     date: "2025-03-20",
     camera: "Pentaxp30n",
     note: "上海の日常",
-    images: ["shanghai/IMG_3039.JPG", "shanghai/IMG_3036.JPG", "shanghai/IMG_3020.JPG", "shanghai/IMG_3023.JPG", "shanghai/IMG_3025.JPG", "shanghai/IMG_3022.JPG"],
+    images: ["shanghai/IMG_3039.JPG", "shanghai/IMG_3036.JPG", "shanghai/IMG_3020.JPG", "shanghai/IMG_3023.JPG", "shanghai/IMG_3025.jpg", "shanghai/IMG_3022.JPG"],
   },
   {
     title: "coming soon",
