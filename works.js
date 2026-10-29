@@ -53,11 +53,11 @@ var WORKS = [
     images: ["shanghai/IMG_3039.JPG", "shanghai/IMG_3036.JPG", "shanghai/IMG_3020.JPG", "shanghai/IMG_3023.JPG", "shanghai/IMG_3025.jpg", "shanghai/IMG_3022.JPG"],
   },
   {
-    title: "coming soon",
+    title: "laos",
     type: "digital",
-    date: "-----",
-    note: "-----。",
-    images: ["red-cloth-01.jpg", "red-cloth-02.jpg"],
+    date: "2026-10-15",
+    note: "ルアンパバーン",
+    images: ["laos1.jpg", "laos2.jpg", "laos3.jpg"],
   },
   {
     title: "coming soon",
