@@ -57,7 +57,7 @@ var WORKS = [
     type: "digital",
     date: "2026-10-15",
     note: "ルアンパバーン",
-    images: ["laos1.jpg", "laos2.jpg", "laos3.jpg"],
+    images: ["laos/laos1.jpg", "laos/laos2.jpg", "laos/laos3.jpg"],
   },
   {
     title: "coming soon",
